@@ -1,0 +1,18 @@
+<div class="container">
+<h1 class="text-center">Calculator</h1>
+<div class="row box">
+    <input class="result" type="text" readonly value="{{result}}">
+</div>
+<div>
+    <button class="responsive long col" *ngFor="let longButton of longButtons" (click)="addToExpression(longButton)">
+        {{longButton}}
+    </button>
+    <button class="responsive colno" *ngFor="let button of buttons" (click)="addToExpression(button)">
+        <span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+        {{button}}
+    </button>
+</div>
+</div>
