@@ -18,13 +18,3 @@ export interface hii
   id : number;
   name : string;
 }
-/*function add(x:number,y:number):number
-{
-  return x+y;
-}
-const input1 = 5;
-const input2 = 58;
-
-const result = add(input1,input2);
-console.log(result);
-alert(result);*/
