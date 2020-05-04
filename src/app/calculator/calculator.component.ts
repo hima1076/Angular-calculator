@@ -31,6 +31,7 @@ export class CalculatorComponent{
     }else if(value == '=')
     {
       this.result = eval(this.result);
+      alert(this.result);
     }else
     {
       this.result += value;
